@@ -9,13 +9,14 @@ COPY . .
 RUN ls -la package.json || echo "package.json not found"
 
 # Install dependencies
-RUN npm install
+RUN npm install -g pnpm
+RUN pnpm install
 
 # Build the frontend
-RUN npm run build
+RUN pnpm run build
 
 # Expose the port
 EXPOSE 3457
 
 # Start the server
-CMD ["npm", "start"] 
+CMD ["pnpm", "start"] 
