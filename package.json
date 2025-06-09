@@ -8,13 +8,14 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "vite preview --host 0.0.0.0 --port 3457",
+    "start": "node server.js",
     "docker:dev": "docker-compose --profile dev up --build",
     "docker:prod": "docker-compose --profile prod up --build",
     "docker:stop": "docker-compose down",
     "generate-places": "node scripts/generatePlaces.js"
   },
   "dependencies": {
+    "express": "^4.18.2",
     "leaflet": "^1.9.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
