@@ -164,3 +164,4 @@ Recreate the SF Kids Map (https://kid-friendly-maps.replit.app/) as a KC Kids Ma
 [X] KC Kids Map fully functional with production build working
 [X] All major features implemented and working
 [X] Docker development and production environments ready
+[X] Mobile responsiveness: Sidebar hidden on mobile devices (screens ≤768px)
