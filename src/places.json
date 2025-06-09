@@ -1,0 +1,2752 @@
+[
+  {
+    "id": "5448904304",
+    "name": "New San Rafael Playground",
+    "type": "playground",
+    "coordinates": [
+      39.1913938,
+      -94.4823698
+    ],
+    "description": "playground",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "78380412",
+    "name": "Macken Park",
+    "type": "playground",
+    "coordinates": [
+      39.1502528,
+      -94.5687827
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "78380714",
+    "name": "Englewood Park",
+    "type": "playground",
+    "coordinates": [
+      39.1933001,
+      -94.5694113
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "83116176",
+    "name": "Kaw Point Riverfront Park",
+    "type": "playground",
+    "coordinates": [
+      39.1164062,
+      -94.6120634
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "93993977",
+    "name": "Hickory Hills Park",
+    "type": "playground",
+    "coordinates": [
+      39.0312907,
+      -94.6832599
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113082766",
+    "name": "Mill Creek Park",
+    "type": "playground",
+    "coordinates": [
+      39.0458197,
+      -94.5879246
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113102944",
+    "name": "Frank Theis Mall",
+    "type": "playground",
+    "coordinates": [
+      39.0405603,
+      -94.5811689
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113102947",
+    "name": "Southmoreland Park",
+    "type": "playground",
+    "coordinates": [
+      39.043697,
+      -94.5827079
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113102949",
+    "name": "Gillham Park",
+    "type": "playground",
+    "coordinates": [
+      39.0499892,
+      -94.5777209
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113102966",
+    "name": "The Donald J. Hall Sculpture Park",
+    "type": "playground",
+    "coordinates": [
+      39.0440603,
+      -94.5805093
+    ],
+    "description": "park • gallery",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "122401867",
+    "name": "Roanoke Park",
+    "type": "playground",
+    "coordinates": [
+      39.0615119,
+      -94.5994999
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132569770",
+    "name": "Oppenstein Brothers Memorial Park",
+    "type": "playground",
+    "coordinates": [
+      39.1002183,
+      -94.5817667
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573650",
+    "name": "Penn Valley Park",
+    "type": "playground",
+    "coordinates": [
+      39.0767379,
+      -94.5906936
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573655",
+    "name": "Liberty Memorial",
+    "type": "playground",
+    "coordinates": [
+      39.0803226,
+      -94.5864521
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573660",
+    "name": "The Parade",
+    "type": "playground",
+    "coordinates": [
+      39.0935532,
+      -94.5625084
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573664",
+    "name": "Washington Square Park",
+    "type": "playground",
+    "coordinates": [
+      39.0851921,
+      -94.5828444
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573665",
+    "name": "Hospital Hill Park",
+    "type": "playground",
+    "coordinates": [
+      39.0843111,
+      -94.5781484
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "156255729",
+    "name": "E. H. Young Riverfront Park",
+    "type": "playground",
+    "coordinates": [
+      39.1628705,
+      -94.6156712
+    ],
+    "description": "park",
+    "address": "1001 Northwest Argosy Parkway, Riverside, MO, 64150"
+  },
+  {
+    "id": "159933836",
+    "name": "Jacob L. Loose Memorial Park",
+    "type": "playground",
+    "coordinates": [
+      39.0315029,
+      -94.594594
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "167282235",
+    "name": "Rosedale Park",
+    "type": "playground",
+    "coordinates": [
+      39.0546531,
+      -94.6252405
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "167282280",
+    "name": "Streamway Park",
+    "type": "playground",
+    "coordinates": [
+      39.0373335,
+      -94.6689777
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "168084896",
+    "name": "Mount Marty Park",
+    "type": "playground",
+    "coordinates": [
+      39.0631201,
+      -94.6162301
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "174857173",
+    "name": "The Grove Park",
+    "type": "playground",
+    "coordinates": [
+      39.0939984,
+      -94.5471059
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "175344598",
+    "name": "Paseo Green Park",
+    "type": "playground",
+    "coordinates": [
+      39.0998412,
+      -94.562569
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "178546567",
+    "name": "Richard L. Berkley Riverfront Park",
+    "type": "playground",
+    "coordinates": [
+      39.1176535,
+      -94.5728902
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "179173592",
+    "name": "Ashland Square",
+    "type": "playground",
+    "coordinates": [
+      39.0845472,
+      -94.5305591
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "179173595",
+    "name": "Blue Valley Park",
+    "type": "playground",
+    "coordinates": [
+      39.0778361,
+      -94.5068649
+    ],
+    "description": "park",
+    "address": "6461 East 23rd Street, Kansas City, MO, 64129"
+  },
+  {
+    "id": "179203118",
+    "name": "Spring Valley Park",
+    "type": "playground",
+    "coordinates": [
+      39.0755786,
+      -94.5595481
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "179536715",
+    "name": "Prospect Plaza Park",
+    "type": "playground",
+    "coordinates": [
+      39.0998234,
+      -94.552542
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "181546464",
+    "name": "Crews Square",
+    "type": "playground",
+    "coordinates": [
+      39.0783338,
+      -94.5608597
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "182620574",
+    "name": "Kemp Park",
+    "type": "playground",
+    "coordinates": [
+      39.1025812,
+      -94.5716222
+    ],
+    "description": "park",
+    "address": "900 Harrison Street, Kansas City, MO, 64106"
+  },
+  {
+    "id": "183937257",
+    "name": "Broadmoor Park",
+    "type": "playground",
+    "coordinates": [
+      39.0253306,
+      -94.6641118
+    ],
+    "description": "park",
+    "address": "5701 Broadmoor Street, Kansas City, MO"
+  },
+  {
+    "id": "190138826",
+    "name": "9th & Van Brunt Athletic Field",
+    "type": "playground",
+    "coordinates": [
+      39.1004126,
+      -94.5243964
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "190851028",
+    "name": "Lykins Square",
+    "type": "playground",
+    "coordinates": [
+      39.1034189,
+      -94.5340752
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "193346788",
+    "name": "Antioch Park",
+    "type": "playground",
+    "coordinates": [
+      39.0096068,
+      -94.6839333
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "194215633",
+    "name": "Budd Park",
+    "type": "playground",
+    "coordinates": [
+      39.1112338,
+      -94.5211104
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "194217274",
+    "name": "Ivanhoe Park",
+    "type": "playground",
+    "coordinates": [
+      39.0474261,
+      -94.5569078
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "199748164",
+    "name": "Blues Park",
+    "type": "playground",
+    "coordinates": [
+      39.0887265,
+      -94.5542314
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "207319301",
+    "name": "Holmes Park",
+    "type": "playground",
+    "coordinates": [
+      39.0016473,
+      -94.5785494
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "218186729",
+    "name": "Bethel Neighborhood Park",
+    "type": "playground",
+    "coordinates": [
+      39.1019863,
+      -94.6270863
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "222554208",
+    "name": "Observation Park",
+    "type": "playground",
+    "coordinates": [
+      39.0886626,
+      -94.597663
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "240340067",
+    "name": "Linda Hall Library Arboretum",
+    "type": "playground",
+    "coordinates": [
+      39.0332149,
+      -94.5792572
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "240577415",
+    "name": "Temple Lot",
+    "type": "playground",
+    "coordinates": [
+      39.0908002,
+      -94.4280438
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "252322715",
+    "name": "Jarboe Park",
+    "type": "playground",
+    "coordinates": [
+      39.0950252,
+      -94.5966061
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "252344168",
+    "name": "Ermine Case Junior Park",
+    "type": "playground",
+    "coordinates": [
+      39.1040784,
+      -94.5923
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "252385393",
+    "name": "Fisher Park",
+    "type": "playground",
+    "coordinates": [
+      39.0577677,
+      -94.6159972
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "257777973",
+    "name": "Memorial Park",
+    "type": "playground",
+    "coordinates": [
+      39.1456682,
+      -94.5723544
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "257777974",
+    "name": "Dagg Park",
+    "type": "playground",
+    "coordinates": [
+      39.1433867,
+      -94.5720652
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "260720262",
+    "name": "Heim's Electric Park",
+    "type": "playground",
+    "coordinates": [
+      39.1222133,
+      -94.5477724
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "265534286",
+    "name": "Westwood Park",
+    "type": "playground",
+    "coordinates": [
+      39.0417458,
+      -94.6063276
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "358026940",
+    "name": "Chouteau Park",
+    "type": "park",
+    "coordinates": [
+      39.1550036,
+      -94.5299541
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "358032784",
+    "name": "Holland Park",
+    "type": "park",
+    "coordinates": [
+      39.1297261,
+      -94.5946782
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "358034022",
+    "name": "Lakewood Park",
+    "type": "park",
+    "coordinates": [
+      39.1794476,
+      -94.531343
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "358038206",
+    "name": "North Hills Park",
+    "type": "park",
+    "coordinates": [
+      39.1550036,
+      -94.5646773
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "358040296",
+    "name": "Riverfront Park",
+    "type": "park",
+    "coordinates": [
+      39.1375039,
+      -94.539399
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "358045458",
+    "name": "West Terrace Park",
+    "type": "park",
+    "coordinates": [
+      39.1036154,
+      -94.592456
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "358088327",
+    "name": "Roper Baseball Stadium",
+    "type": "park",
+    "coordinates": [
+      39.107662,
+      -94.446887
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "358633390",
+    "name": "Highland Park",
+    "type": "park",
+    "coordinates": [
+      39.0472273,
+      -94.6932924
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "358644388",
+    "name": "Waterfall Park",
+    "type": "park",
+    "coordinates": [
+      39.0345982,
+      -94.6888294
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "358644394",
+    "name": "Werner Park",
+    "type": "park",
+    "coordinates": [
+      39.0247651,
+      -94.6962379
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "358644470",
+    "name": "Quail Creek Park",
+    "type": "park",
+    "coordinates": [
+      39.0005907,
+      -94.6914813
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "358644580",
+    "name": "Merriam Parks and Recreation",
+    "type": "park",
+    "coordinates": [
+      39.0246,
+      -94.6948
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "358644676",
+    "name": "Hickory Hills Park",
+    "type": "park",
+    "coordinates": [
+      39.0314,
+      -94.6832
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "358644724",
+    "name": "Chatlain Park",
+    "type": "park",
+    "coordinates": [
+      39.0136111,
+      -94.6983315
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "5555468725",
+    "name": "3625 Park",
+    "type": "park",
+    "coordinates": [
+      39.0613091,
+      -94.6068885
+    ],
+    "description": "park",
+    "address": "3625 State Line Road, Kansas City, MO, 64111"
+  },
+  {
+    "id": "6332123913",
+    "name": "Merriam Historic Plaza",
+    "type": "park",
+    "coordinates": [
+      39.0144926,
+      -94.690642
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "78380412",
+    "name": "Macken Park",
+    "type": "park",
+    "coordinates": [
+      39.1502528,
+      -94.5687827
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "78380714",
+    "name": "Englewood Park",
+    "type": "park",
+    "coordinates": [
+      39.1933001,
+      -94.5694113
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "83116176",
+    "name": "Kaw Point Riverfront Park",
+    "type": "park",
+    "coordinates": [
+      39.1164062,
+      -94.6120634
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "93993977",
+    "name": "Hickory Hills Park",
+    "type": "park",
+    "coordinates": [
+      39.0312907,
+      -94.6832599
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113082766",
+    "name": "Mill Creek Park",
+    "type": "park",
+    "coordinates": [
+      39.0458197,
+      -94.5879246
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113102944",
+    "name": "Frank Theis Mall",
+    "type": "park",
+    "coordinates": [
+      39.0405603,
+      -94.5811689
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113102947",
+    "name": "Southmoreland Park",
+    "type": "park",
+    "coordinates": [
+      39.043697,
+      -94.5827079
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113102949",
+    "name": "Gillham Park",
+    "type": "park",
+    "coordinates": [
+      39.0499892,
+      -94.5777209
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113102966",
+    "name": "The Donald J. Hall Sculpture Park",
+    "type": "park",
+    "coordinates": [
+      39.0440603,
+      -94.5805093
+    ],
+    "description": "park • gallery",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "122401867",
+    "name": "Roanoke Park",
+    "type": "park",
+    "coordinates": [
+      39.0615119,
+      -94.5994999
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132569770",
+    "name": "Oppenstein Brothers Memorial Park",
+    "type": "park",
+    "coordinates": [
+      39.1002183,
+      -94.5817667
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573650",
+    "name": "Penn Valley Park",
+    "type": "park",
+    "coordinates": [
+      39.0767379,
+      -94.5906936
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573655",
+    "name": "Liberty Memorial",
+    "type": "park",
+    "coordinates": [
+      39.0803226,
+      -94.5864521
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573660",
+    "name": "The Parade",
+    "type": "park",
+    "coordinates": [
+      39.0935532,
+      -94.5625084
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573664",
+    "name": "Washington Square Park",
+    "type": "park",
+    "coordinates": [
+      39.0851921,
+      -94.5828444
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573665",
+    "name": "Hospital Hill Park",
+    "type": "park",
+    "coordinates": [
+      39.0843111,
+      -94.5781484
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "156255729",
+    "name": "E. H. Young Riverfront Park",
+    "type": "park",
+    "coordinates": [
+      39.1628705,
+      -94.6156712
+    ],
+    "description": "park",
+    "address": "1001 Northwest Argosy Parkway, Riverside, MO, 64150"
+  },
+  {
+    "id": "159933836",
+    "name": "Jacob L. Loose Memorial Park",
+    "type": "park",
+    "coordinates": [
+      39.0315029,
+      -94.594594
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "167282235",
+    "name": "Rosedale Park",
+    "type": "park",
+    "coordinates": [
+      39.0546531,
+      -94.6252405
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "167282280",
+    "name": "Streamway Park",
+    "type": "park",
+    "coordinates": [
+      39.0373335,
+      -94.6689777
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "168084896",
+    "name": "Mount Marty Park",
+    "type": "park",
+    "coordinates": [
+      39.0631201,
+      -94.6162301
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "174857173",
+    "name": "The Grove Park",
+    "type": "park",
+    "coordinates": [
+      39.0939984,
+      -94.5471059
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "175344598",
+    "name": "Paseo Green Park",
+    "type": "park",
+    "coordinates": [
+      39.0998412,
+      -94.562569
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "178546567",
+    "name": "Richard L. Berkley Riverfront Park",
+    "type": "park",
+    "coordinates": [
+      39.1176535,
+      -94.5728902
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "179173592",
+    "name": "Ashland Square",
+    "type": "park",
+    "coordinates": [
+      39.0845472,
+      -94.5305591
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "179173595",
+    "name": "Blue Valley Park",
+    "type": "park",
+    "coordinates": [
+      39.0778361,
+      -94.5068649
+    ],
+    "description": "park",
+    "address": "6461 East 23rd Street, Kansas City, MO, 64129"
+  },
+  {
+    "id": "179203118",
+    "name": "Spring Valley Park",
+    "type": "park",
+    "coordinates": [
+      39.0755786,
+      -94.5595481
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "179536715",
+    "name": "Prospect Plaza Park",
+    "type": "park",
+    "coordinates": [
+      39.0998234,
+      -94.552542
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "181546464",
+    "name": "Crews Square",
+    "type": "park",
+    "coordinates": [
+      39.0783338,
+      -94.5608597
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "182620574",
+    "name": "Kemp Park",
+    "type": "park",
+    "coordinates": [
+      39.1025812,
+      -94.5716222
+    ],
+    "description": "park",
+    "address": "900 Harrison Street, Kansas City, MO, 64106"
+  },
+  {
+    "id": "183937257",
+    "name": "Broadmoor Park",
+    "type": "park",
+    "coordinates": [
+      39.0253306,
+      -94.6641118
+    ],
+    "description": "park",
+    "address": "5701 Broadmoor Street, Kansas City, MO"
+  },
+  {
+    "id": "190138826",
+    "name": "9th & Van Brunt Athletic Field",
+    "type": "park",
+    "coordinates": [
+      39.1004126,
+      -94.5243964
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "190851028",
+    "name": "Lykins Square",
+    "type": "park",
+    "coordinates": [
+      39.1034189,
+      -94.5340752
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "193346788",
+    "name": "Antioch Park",
+    "type": "park",
+    "coordinates": [
+      39.0096068,
+      -94.6839333
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "366764247",
+    "name": "Kansas City Kansas Public Library - Argentine Branch",
+    "type": "museum",
+    "coordinates": [
+      39.073476,
+      -94.661231
+    ],
+    "description": "library",
+    "address": "Kansas City, KS"
+  },
+  {
+    "id": "367086439",
+    "name": "Kansas City Missouri Public School District Library and Media Center",
+    "type": "museum",
+    "coordinates": [
+      39.1353534,
+      -94.5133832
+    ],
+    "description": "library",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "367087451",
+    "name": "Arabia Steamboat Museum",
+    "type": "museum",
+    "coordinates": [
+      39.1094408,
+      -94.5814477
+    ],
+    "description": "museum",
+    "address": "400 Grand Boulevard, Kansas City, MO, 64106"
+  },
+  {
+    "id": "1458132670",
+    "name": "Negro Leagues Baseball Museum",
+    "type": "museum",
+    "coordinates": [
+      39.0914359,
+      -94.5625125
+    ],
+    "description": "museum",
+    "address": "1616 East 18th Street, Kansas City, MO, 64108"
+  },
+  {
+    "id": "1458132824",
+    "name": "National WWI Museum and Memorial",
+    "type": "museum",
+    "coordinates": [
+      39.0806754,
+      -94.5860757
+    ],
+    "description": "museum",
+    "address": "2 Memorial Drive, Kansas City, MO, 64108"
+  },
+  {
+    "id": "1750334234",
+    "name": "Sugar Creek Historical Society",
+    "type": "museum",
+    "coordinates": [
+      39.1144771,
+      -94.4448613
+    ],
+    "description": "museum",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "1916518832",
+    "name": "American Jazz Museum",
+    "type": "museum",
+    "coordinates": [
+      39.091392,
+      -94.562865
+    ],
+    "description": "museum",
+    "address": "East 18th Street, Kansas City, MO, 64108"
+  },
+  {
+    "id": "4625212873",
+    "name": "Money Museum",
+    "type": "museum",
+    "coordinates": [
+      39.0751393,
+      -94.5857204
+    ],
+    "description": "museum",
+    "address": "1 Memorial Drive, Kansas City, MO"
+  },
+  {
+    "id": "4825904121",
+    "name": "Science City",
+    "type": "museum",
+    "coordinates": [
+      39.0850768,
+      -94.5858953
+    ],
+    "description": "museum",
+    "address": "30 West Pershing Road, Kansas City, MO, 64108"
+  },
+  {
+    "id": "8085215545",
+    "name": "Kansas City, Kansas Public Library",
+    "type": "museum",
+    "coordinates": [
+      39.1150805,
+      -94.6251423
+    ],
+    "description": "library",
+    "address": "625 Minnesota Avenue, Kansas City, KS, 66101"
+  },
+  {
+    "id": "9561160332",
+    "name": "Museum of Illusions",
+    "type": "museum",
+    "coordinates": [
+      39.084829,
+      -94.5856488
+    ],
+    "description": "museum",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "9922764580",
+    "name": "The Box Gallery",
+    "type": "museum",
+    "coordinates": [
+      39.1020836,
+      -94.5826508
+    ],
+    "description": "museum",
+    "address": "1000 Walnut Street, Kansas City, MO, 64106"
+  },
+  {
+    "id": "10282682519",
+    "name": "The Peace Pavilion",
+    "type": "museum",
+    "coordinates": [
+      39.0921196,
+      -94.4227273
+    ],
+    "description": "museum",
+    "address": "607 West Lexington Avenue, Independence, MO, 64050"
+  },
+  {
+    "id": "11869740182",
+    "name": "Clendening Medical Library & Museum",
+    "type": "museum",
+    "coordinates": [
+      39.0556982,
+      -94.6114332
+    ],
+    "description": "library",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "11870014034",
+    "name": "TWA Museum",
+    "type": "museum",
+    "coordinates": [
+      39.1155161,
+      -94.5912801
+    ],
+    "description": "museum",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "11895963673",
+    "name": "The Rabbit hOle",
+    "type": "museum",
+    "coordinates": [
+      39.133913,
+      -94.5695866
+    ],
+    "description": "museum",
+    "address": "919 E 14th Ave, North Kansas City, MO, 64116"
+  },
+  {
+    "id": "78380412",
+    "name": "Macken Park",
+    "type": "museum",
+    "coordinates": [
+      39.1502528,
+      -94.5687827
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "78380714",
+    "name": "Englewood Park",
+    "type": "museum",
+    "coordinates": [
+      39.1933001,
+      -94.5694113
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "83116176",
+    "name": "Kaw Point Riverfront Park",
+    "type": "museum",
+    "coordinates": [
+      39.1164062,
+      -94.6120634
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "93993977",
+    "name": "Hickory Hills Park",
+    "type": "museum",
+    "coordinates": [
+      39.0312907,
+      -94.6832599
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113082766",
+    "name": "Mill Creek Park",
+    "type": "museum",
+    "coordinates": [
+      39.0458197,
+      -94.5879246
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113102944",
+    "name": "Frank Theis Mall",
+    "type": "museum",
+    "coordinates": [
+      39.0405603,
+      -94.5811689
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113102947",
+    "name": "Southmoreland Park",
+    "type": "museum",
+    "coordinates": [
+      39.043697,
+      -94.5827079
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113102949",
+    "name": "Gillham Park",
+    "type": "museum",
+    "coordinates": [
+      39.0499892,
+      -94.5777209
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113102966",
+    "name": "The Donald J. Hall Sculpture Park",
+    "type": "museum",
+    "coordinates": [
+      39.0440603,
+      -94.5805093
+    ],
+    "description": "park • gallery",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "122401867",
+    "name": "Roanoke Park",
+    "type": "museum",
+    "coordinates": [
+      39.0615119,
+      -94.5994999
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132569770",
+    "name": "Oppenstein Brothers Memorial Park",
+    "type": "museum",
+    "coordinates": [
+      39.1002183,
+      -94.5817667
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573650",
+    "name": "Penn Valley Park",
+    "type": "museum",
+    "coordinates": [
+      39.0767379,
+      -94.5906936
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573655",
+    "name": "Liberty Memorial",
+    "type": "museum",
+    "coordinates": [
+      39.0803226,
+      -94.5864521
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573660",
+    "name": "The Parade",
+    "type": "museum",
+    "coordinates": [
+      39.0935532,
+      -94.5625084
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573664",
+    "name": "Washington Square Park",
+    "type": "museum",
+    "coordinates": [
+      39.0851921,
+      -94.5828444
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573665",
+    "name": "Hospital Hill Park",
+    "type": "museum",
+    "coordinates": [
+      39.0843111,
+      -94.5781484
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "156255729",
+    "name": "E. H. Young Riverfront Park",
+    "type": "museum",
+    "coordinates": [
+      39.1628705,
+      -94.6156712
+    ],
+    "description": "park",
+    "address": "1001 Northwest Argosy Parkway, Riverside, MO, 64150"
+  },
+  {
+    "id": "159933836",
+    "name": "Jacob L. Loose Memorial Park",
+    "type": "museum",
+    "coordinates": [
+      39.0315029,
+      -94.594594
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "167282235",
+    "name": "Rosedale Park",
+    "type": "museum",
+    "coordinates": [
+      39.0546531,
+      -94.6252405
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "167282280",
+    "name": "Streamway Park",
+    "type": "museum",
+    "coordinates": [
+      39.0373335,
+      -94.6689777
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "168084896",
+    "name": "Mount Marty Park",
+    "type": "museum",
+    "coordinates": [
+      39.0631201,
+      -94.6162301
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "174857173",
+    "name": "The Grove Park",
+    "type": "museum",
+    "coordinates": [
+      39.0939984,
+      -94.5471059
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "175344598",
+    "name": "Paseo Green Park",
+    "type": "museum",
+    "coordinates": [
+      39.0998412,
+      -94.562569
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "178546567",
+    "name": "Richard L. Berkley Riverfront Park",
+    "type": "museum",
+    "coordinates": [
+      39.1176535,
+      -94.5728902
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "179173592",
+    "name": "Ashland Square",
+    "type": "museum",
+    "coordinates": [
+      39.0845472,
+      -94.5305591
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "179173595",
+    "name": "Blue Valley Park",
+    "type": "museum",
+    "coordinates": [
+      39.0778361,
+      -94.5068649
+    ],
+    "description": "park",
+    "address": "6461 East 23rd Street, Kansas City, MO, 64129"
+  },
+  {
+    "id": "179203118",
+    "name": "Spring Valley Park",
+    "type": "museum",
+    "coordinates": [
+      39.0755786,
+      -94.5595481
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "179536715",
+    "name": "Prospect Plaza Park",
+    "type": "museum",
+    "coordinates": [
+      39.0998234,
+      -94.552542
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "181546464",
+    "name": "Crews Square",
+    "type": "museum",
+    "coordinates": [
+      39.0783338,
+      -94.5608597
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "182620574",
+    "name": "Kemp Park",
+    "type": "museum",
+    "coordinates": [
+      39.1025812,
+      -94.5716222
+    ],
+    "description": "park",
+    "address": "900 Harrison Street, Kansas City, MO, 64106"
+  },
+  {
+    "id": "183937257",
+    "name": "Broadmoor Park",
+    "type": "museum",
+    "coordinates": [
+      39.0253306,
+      -94.6641118
+    ],
+    "description": "park",
+    "address": "5701 Broadmoor Street, Kansas City, MO"
+  },
+  {
+    "id": "190138826",
+    "name": "9th & Van Brunt Athletic Field",
+    "type": "museum",
+    "coordinates": [
+      39.1004126,
+      -94.5243964
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "190851028",
+    "name": "Lykins Square",
+    "type": "museum",
+    "coordinates": [
+      39.1034189,
+      -94.5340752
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "193346788",
+    "name": "Antioch Park",
+    "type": "museum",
+    "coordinates": [
+      39.0096068,
+      -94.6839333
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "2670074466",
+    "name": "Hook Gallery & Framing",
+    "type": "gallerie",
+    "coordinates": [
+      39.0499173,
+      -94.6032228
+    ],
+    "description": "gallery",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "5294968150",
+    "name": "Pottery Art",
+    "type": "gallerie",
+    "coordinates": [
+      39.08795,
+      -94.4485958
+    ],
+    "description": "gallery",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "5294968151",
+    "name": "Winner Road Gallery",
+    "type": "gallerie",
+    "coordinates": [
+      39.0879542,
+      -94.4486441
+    ],
+    "description": "gallery",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "9875689730",
+    "name": "Leopold Gallery and Art Consulting",
+    "type": "gallerie",
+    "coordinates": [
+      39.0142605,
+      -94.5923268
+    ],
+    "description": "gallery",
+    "address": "324 West 63rd Street, Kansas City, MO, 64113"
+  },
+  {
+    "id": "10224124088",
+    "name": "Leedy-Voulkos Art Center",
+    "type": "gallerie",
+    "coordinates": [
+      39.0885565,
+      -94.5850894
+    ],
+    "description": "gallery",
+    "address": "2012 Baltimore Avenue, Kansas City, MO, 64108"
+  },
+  {
+    "id": "10595276557",
+    "name": "KCAI Gallery",
+    "type": "gallerie",
+    "coordinates": [
+      39.0469092,
+      -94.5828902
+    ],
+    "description": "gallery",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "11534694569",
+    "name": "Mattie Rhodes Center",
+    "type": "gallerie",
+    "coordinates": [
+      39.0930284,
+      -94.5952941
+    ],
+    "description": "gallery",
+    "address": "915 & 919 West 17th Street, Kansas City, MO, 64108"
+  },
+  {
+    "id": "11711703178",
+    "name": "Buttonwood Artspace And Framing",
+    "type": "gallerie",
+    "coordinates": [
+      39.0722331,
+      -94.5850718
+    ],
+    "description": "gallery",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "11800287597",
+    "name": "Digital Art Gallery",
+    "type": "gallerie",
+    "coordinates": [
+      39.0884167,
+      -94.5841119
+    ],
+    "description": "gallery",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "11873074872",
+    "name": "George R. Shlegel Gallery",
+    "type": "gallerie",
+    "coordinates": [
+      39.0366287,
+      -94.6382365
+    ],
+    "description": "gallery",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "11913326721",
+    "name": "Belger Arts Center",
+    "type": "gallerie",
+    "coordinates": [
+      39.0876394,
+      -94.5829045
+    ],
+    "description": "gallery",
+    "address": "2100 Walnut Street, Kansas City, MO, 64108"
+  },
+  {
+    "id": "11913326723",
+    "name": "Belger Crane Yard Studios",
+    "type": "gallerie",
+    "coordinates": [
+      39.0880676,
+      -94.5669407
+    ],
+    "description": "gallery",
+    "address": "2011 Tracy Avenue, Kansas City, MO, 64108"
+  },
+  {
+    "id": "11915919628",
+    "name": "2000 Vine",
+    "type": "gallerie",
+    "coordinates": [
+      39.0879614,
+      -94.5637257
+    ],
+    "description": "gallery",
+    "address": "2000 Vine Street, Kansas City, MO, 64108"
+  },
+  {
+    "id": "78380412",
+    "name": "Macken Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.1502528,
+      -94.5687827
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "78380714",
+    "name": "Englewood Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.1933001,
+      -94.5694113
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "83116176",
+    "name": "Kaw Point Riverfront Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.1164062,
+      -94.6120634
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "93993977",
+    "name": "Hickory Hills Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0312907,
+      -94.6832599
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113082766",
+    "name": "Mill Creek Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0458197,
+      -94.5879246
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113102944",
+    "name": "Frank Theis Mall",
+    "type": "gallerie",
+    "coordinates": [
+      39.0405603,
+      -94.5811689
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113102947",
+    "name": "Southmoreland Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.043697,
+      -94.5827079
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113102949",
+    "name": "Gillham Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0499892,
+      -94.5777209
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113102966",
+    "name": "The Donald J. Hall Sculpture Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0440603,
+      -94.5805093
+    ],
+    "description": "park • gallery",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "122401867",
+    "name": "Roanoke Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0615119,
+      -94.5994999
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132569770",
+    "name": "Oppenstein Brothers Memorial Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.1002183,
+      -94.5817667
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573650",
+    "name": "Penn Valley Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0767379,
+      -94.5906936
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573655",
+    "name": "Liberty Memorial",
+    "type": "gallerie",
+    "coordinates": [
+      39.0803226,
+      -94.5864521
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573660",
+    "name": "The Parade",
+    "type": "gallerie",
+    "coordinates": [
+      39.0935532,
+      -94.5625084
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573664",
+    "name": "Washington Square Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0851921,
+      -94.5828444
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573665",
+    "name": "Hospital Hill Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0843111,
+      -94.5781484
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "156255729",
+    "name": "E. H. Young Riverfront Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.1628705,
+      -94.6156712
+    ],
+    "description": "park",
+    "address": "1001 Northwest Argosy Parkway, Riverside, MO, 64150"
+  },
+  {
+    "id": "159933836",
+    "name": "Jacob L. Loose Memorial Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0315029,
+      -94.594594
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "167282235",
+    "name": "Rosedale Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0546531,
+      -94.6252405
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "167282280",
+    "name": "Streamway Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0373335,
+      -94.6689777
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "168084896",
+    "name": "Mount Marty Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0631201,
+      -94.6162301
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "174857173",
+    "name": "The Grove Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0939984,
+      -94.5471059
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "175344598",
+    "name": "Paseo Green Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0998412,
+      -94.562569
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "178546567",
+    "name": "Richard L. Berkley Riverfront Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.1176535,
+      -94.5728902
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "179173592",
+    "name": "Ashland Square",
+    "type": "gallerie",
+    "coordinates": [
+      39.0845472,
+      -94.5305591
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "179173595",
+    "name": "Blue Valley Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0778361,
+      -94.5068649
+    ],
+    "description": "park",
+    "address": "6461 East 23rd Street, Kansas City, MO, 64129"
+  },
+  {
+    "id": "179203118",
+    "name": "Spring Valley Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0755786,
+      -94.5595481
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "179536715",
+    "name": "Prospect Plaza Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0998234,
+      -94.552542
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "181546464",
+    "name": "Crews Square",
+    "type": "gallerie",
+    "coordinates": [
+      39.0783338,
+      -94.5608597
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "182620574",
+    "name": "Kemp Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.1025812,
+      -94.5716222
+    ],
+    "description": "park",
+    "address": "900 Harrison Street, Kansas City, MO, 64106"
+  },
+  {
+    "id": "183937257",
+    "name": "Broadmoor Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0253306,
+      -94.6641118
+    ],
+    "description": "park",
+    "address": "5701 Broadmoor Street, Kansas City, MO"
+  },
+  {
+    "id": "190138826",
+    "name": "9th & Van Brunt Athletic Field",
+    "type": "gallerie",
+    "coordinates": [
+      39.1004126,
+      -94.5243964
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "190851028",
+    "name": "Lykins Square",
+    "type": "gallerie",
+    "coordinates": [
+      39.1034189,
+      -94.5340752
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "193346788",
+    "name": "Antioch Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0096068,
+      -94.6839333
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "194215633",
+    "name": "Budd Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.1112338,
+      -94.5211104
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "194217274",
+    "name": "Ivanhoe Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0474261,
+      -94.5569078
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "199748164",
+    "name": "Blues Park",
+    "type": "gallerie",
+    "coordinates": [
+      39.0887265,
+      -94.5542314
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "78380412",
+    "name": "Macken Park",
+    "type": "science",
+    "coordinates": [
+      39.1502528,
+      -94.5687827
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "78380714",
+    "name": "Englewood Park",
+    "type": "science",
+    "coordinates": [
+      39.1933001,
+      -94.5694113
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "83116176",
+    "name": "Kaw Point Riverfront Park",
+    "type": "science",
+    "coordinates": [
+      39.1164062,
+      -94.6120634
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "93993977",
+    "name": "Hickory Hills Park",
+    "type": "science",
+    "coordinates": [
+      39.0312907,
+      -94.6832599
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113082766",
+    "name": "Mill Creek Park",
+    "type": "science",
+    "coordinates": [
+      39.0458197,
+      -94.5879246
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113102944",
+    "name": "Frank Theis Mall",
+    "type": "science",
+    "coordinates": [
+      39.0405603,
+      -94.5811689
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113102947",
+    "name": "Southmoreland Park",
+    "type": "science",
+    "coordinates": [
+      39.043697,
+      -94.5827079
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113102949",
+    "name": "Gillham Park",
+    "type": "science",
+    "coordinates": [
+      39.0499892,
+      -94.5777209
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "113102966",
+    "name": "The Donald J. Hall Sculpture Park",
+    "type": "science",
+    "coordinates": [
+      39.0440603,
+      -94.5805093
+    ],
+    "description": "park • gallery",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "122401867",
+    "name": "Roanoke Park",
+    "type": "science",
+    "coordinates": [
+      39.0615119,
+      -94.5994999
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132569770",
+    "name": "Oppenstein Brothers Memorial Park",
+    "type": "science",
+    "coordinates": [
+      39.1002183,
+      -94.5817667
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573650",
+    "name": "Penn Valley Park",
+    "type": "science",
+    "coordinates": [
+      39.0767379,
+      -94.5906936
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573655",
+    "name": "Liberty Memorial",
+    "type": "science",
+    "coordinates": [
+      39.0803226,
+      -94.5864521
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573660",
+    "name": "The Parade",
+    "type": "science",
+    "coordinates": [
+      39.0935532,
+      -94.5625084
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573664",
+    "name": "Washington Square Park",
+    "type": "science",
+    "coordinates": [
+      39.0851921,
+      -94.5828444
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "132573665",
+    "name": "Hospital Hill Park",
+    "type": "science",
+    "coordinates": [
+      39.0843111,
+      -94.5781484
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "156255729",
+    "name": "E. H. Young Riverfront Park",
+    "type": "science",
+    "coordinates": [
+      39.1628705,
+      -94.6156712
+    ],
+    "description": "park",
+    "address": "1001 Northwest Argosy Parkway, Riverside, MO, 64150"
+  },
+  {
+    "id": "159933836",
+    "name": "Jacob L. Loose Memorial Park",
+    "type": "science",
+    "coordinates": [
+      39.0315029,
+      -94.594594
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "167282235",
+    "name": "Rosedale Park",
+    "type": "science",
+    "coordinates": [
+      39.0546531,
+      -94.6252405
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "167282280",
+    "name": "Streamway Park",
+    "type": "science",
+    "coordinates": [
+      39.0373335,
+      -94.6689777
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "168084896",
+    "name": "Mount Marty Park",
+    "type": "science",
+    "coordinates": [
+      39.0631201,
+      -94.6162301
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "174857173",
+    "name": "The Grove Park",
+    "type": "science",
+    "coordinates": [
+      39.0939984,
+      -94.5471059
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "175344598",
+    "name": "Paseo Green Park",
+    "type": "science",
+    "coordinates": [
+      39.0998412,
+      -94.562569
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "178546567",
+    "name": "Richard L. Berkley Riverfront Park",
+    "type": "science",
+    "coordinates": [
+      39.1176535,
+      -94.5728902
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "179173592",
+    "name": "Ashland Square",
+    "type": "science",
+    "coordinates": [
+      39.0845472,
+      -94.5305591
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "179173595",
+    "name": "Blue Valley Park",
+    "type": "science",
+    "coordinates": [
+      39.0778361,
+      -94.5068649
+    ],
+    "description": "park",
+    "address": "6461 East 23rd Street, Kansas City, MO, 64129"
+  },
+  {
+    "id": "179203118",
+    "name": "Spring Valley Park",
+    "type": "science",
+    "coordinates": [
+      39.0755786,
+      -94.5595481
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "179536715",
+    "name": "Prospect Plaza Park",
+    "type": "science",
+    "coordinates": [
+      39.0998234,
+      -94.552542
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "181546464",
+    "name": "Crews Square",
+    "type": "science",
+    "coordinates": [
+      39.0783338,
+      -94.5608597
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "182620574",
+    "name": "Kemp Park",
+    "type": "science",
+    "coordinates": [
+      39.1025812,
+      -94.5716222
+    ],
+    "description": "park",
+    "address": "900 Harrison Street, Kansas City, MO, 64106"
+  },
+  {
+    "id": "183937257",
+    "name": "Broadmoor Park",
+    "type": "science",
+    "coordinates": [
+      39.0253306,
+      -94.6641118
+    ],
+    "description": "park",
+    "address": "5701 Broadmoor Street, Kansas City, MO"
+  },
+  {
+    "id": "190138826",
+    "name": "9th & Van Brunt Athletic Field",
+    "type": "science",
+    "coordinates": [
+      39.1004126,
+      -94.5243964
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "190851028",
+    "name": "Lykins Square",
+    "type": "science",
+    "coordinates": [
+      39.1034189,
+      -94.5340752
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "193346788",
+    "name": "Antioch Park",
+    "type": "science",
+    "coordinates": [
+      39.0096068,
+      -94.6839333
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "194215633",
+    "name": "Budd Park",
+    "type": "science",
+    "coordinates": [
+      39.1112338,
+      -94.5211104
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "194217274",
+    "name": "Ivanhoe Park",
+    "type": "science",
+    "coordinates": [
+      39.0474261,
+      -94.5569078
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "199748164",
+    "name": "Blues Park",
+    "type": "science",
+    "coordinates": [
+      39.0887265,
+      -94.5542314
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "207319301",
+    "name": "Holmes Park",
+    "type": "science",
+    "coordinates": [
+      39.0016473,
+      -94.5785494
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "218186729",
+    "name": "Bethel Neighborhood Park",
+    "type": "science",
+    "coordinates": [
+      39.1019863,
+      -94.6270863
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "222554208",
+    "name": "Observation Park",
+    "type": "science",
+    "coordinates": [
+      39.0886626,
+      -94.597663
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "240340067",
+    "name": "Linda Hall Library Arboretum",
+    "type": "science",
+    "coordinates": [
+      39.0332149,
+      -94.5792572
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "240577415",
+    "name": "Temple Lot",
+    "type": "science",
+    "coordinates": [
+      39.0908002,
+      -94.4280438
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "252322715",
+    "name": "Jarboe Park",
+    "type": "science",
+    "coordinates": [
+      39.0950252,
+      -94.5966061
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "252344168",
+    "name": "Ermine Case Junior Park",
+    "type": "science",
+    "coordinates": [
+      39.1040784,
+      -94.5923
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "252385393",
+    "name": "Fisher Park",
+    "type": "science",
+    "coordinates": [
+      39.0577677,
+      -94.6159972
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "257777973",
+    "name": "Memorial Park",
+    "type": "science",
+    "coordinates": [
+      39.1456682,
+      -94.5723544
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "257777974",
+    "name": "Dagg Park",
+    "type": "science",
+    "coordinates": [
+      39.1433867,
+      -94.5720652
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "260720262",
+    "name": "Heim's Electric Park",
+    "type": "science",
+    "coordinates": [
+      39.1222133,
+      -94.5477724
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "265534286",
+    "name": "Westwood Park",
+    "type": "science",
+    "coordinates": [
+      39.0417458,
+      -94.6063276
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  },
+  {
+    "id": "283726987",
+    "name": "Anita B. Gorman Park",
+    "type": "science",
+    "coordinates": [
+      39.1803833,
+      -94.5743072
+    ],
+    "description": "park",
+    "address": "Kansas City, MO"
+  }
+]

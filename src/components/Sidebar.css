@@ -1,0 +1,154 @@
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  background: white;
+  padding: 20px;
+  overflow-y: auto;
+  border-right: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar-header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+}
+
+.activities-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.activities-section h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0;
+}
+
+.master-toggle-label {
+  padding: 4px 0 !important;
+  justify-content: flex-end;
+}
+
+.activity-item {
+  margin-bottom: 10px;
+}
+
+.activity-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 8px 0;
+}
+
+.activity-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.activity-checkbox {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  appearance: none;
+  background-color: #ccc;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  outline: none;
+}
+
+.activity-checkbox:checked {
+  background-color: #2196f3;
+}
+
+.activity-checkbox::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.activity-checkbox:checked::after {
+  transform: translateX(20px);
+}
+
+.activity-icon {
+  font-size: 16px;
+  width: 20px;
+  text-align: center;
+}
+
+.activity-name {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+.search-section {
+  margin: 10px 0;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+  background-color: white;
+  color: #333;
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+.search-input:focus {
+  border-color: #2196f3;
+}
+
+.about-section h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.4;
+}
+
+.attribution {
+  margin-top: auto;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.attribution p {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 4px;
+} 
