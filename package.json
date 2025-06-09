@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "start": "vite preview --host --port 3456",
     "docker:dev": "docker-compose --profile dev up --build",
     "docker:prod": "docker-compose --profile prod up --build",
     "docker:stop": "docker-compose down",
