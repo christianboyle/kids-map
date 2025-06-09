@@ -18,4 +18,4 @@ RUN npm run build
 EXPOSE 3457
 
 # Start the server
-CMD ["npm", "run", "preview", "--", "--host", "--port", "3457"] 
+CMD ["npm", "run", "docker:prod"] 
