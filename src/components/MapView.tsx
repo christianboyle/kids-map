@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
 import { Icon } from 'leaflet'
 import type { ActivityCategory } from '../App'
 import { searchPlaces, CATEGORY_TYPE_MAPPING, type Place } from '../services/placesService'
+import LocationControl from './LocationControl'
 import 'leaflet/dist/leaflet.css'
 import './MapView.css'
 
@@ -30,9 +31,38 @@ const createCustomIcon = (color: string, emoji: string) => {
   })
 }
 
+// User location icon
+const createUserLocationIcon = () => {
+  const svgString = `<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="12" cy="12" r="8" fill="#2196f3" stroke="white" stroke-width="3"/>
+    <circle cx="12" cy="12" r="3" fill="white"/>
+  </svg>`
+  
+  return new Icon({
+    iconUrl: `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svgString)}`,
+    iconSize: [24, 24],
+    iconAnchor: [12, 12],
+    popupAnchor: [0, -12]
+  })
+}
+
+// Map controller component to handle programmatic map operations
+function MapController({ userLocation }: { userLocation: [number, number] | null }) {
+  const map = useMap()
+  
+  useEffect(() => {
+    if (userLocation) {
+      map.setView(userLocation, 15, { animate: true })
+    }
+  }, [map, userLocation])
+  
+  return null
+}
+
 export default function MapView({ activities, searchQuery }: MapViewProps) {
   const [places, setPlaces] = useState<Place[]>([])
   const [loading, setLoading] = useState(true)
+  const [userLocation, setUserLocation] = useState<[number, number] | null>(null)
 
   const enabledActivityIds = activities.map(a => a.id)
 
@@ -57,6 +87,10 @@ export default function MapView({ activities, searchQuery }: MapViewProps) {
     loadPlaces()
   }, [enabledActivityIds.join(','), searchQuery])
 
+  const handleLocationFound = (lat: number, lng: number) => {
+    setUserLocation([lat, lng])
+  }
+
   return (
     <div className="map-view">
       {loading && (
@@ -64,15 +98,35 @@ export default function MapView({ activities, searchQuery }: MapViewProps) {
           <div className="loading-message">Loading places...</div>
         </div>
       )}
+      
+      <LocationControl onLocationFound={handleLocationFound} />
+      
       <MapContainer
         center={KC_CENTER}
         zoom={12}
         style={{ height: '100%', width: '100%' }}
       >
+        <MapController userLocation={userLocation} />
+        
         <TileLayer
           attribution='&copy; <a href="https://carto.com/">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"
         />
+        
+        {/* User location marker */}
+        {userLocation && (
+          <Marker
+            position={userLocation}
+            icon={createUserLocationIcon()}
+          >
+            <Popup>
+              <div>
+                <h3>📍 Your Location</h3>
+                <p>You are here!</p>
+              </div>
+            </Popup>
+          </Marker>
+        )}
         
         {places.map((place, index) => {
           // Find activity by matching place type to our category mapping

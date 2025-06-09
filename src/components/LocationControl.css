@@ -1,0 +1,103 @@
+.location-control {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.location-button {
+  width: 44px;
+  height: 44px;
+  background: white;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.location-button:hover {
+  border-color: #2196f3;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.location-button:active {
+  transform: translateY(1px);
+}
+
+.location-button.loading {
+  border-color: #2196f3;
+  background: #f0f8ff;
+}
+
+.loading-spinner {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.1);
+  }
+}
+
+.location-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.location-error {
+  background: #ffebee;
+  color: #c62828;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  max-width: 200px;
+  text-align: right;
+  border: 1px solid #ffcdd2;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .location-control {
+    top: 15px;
+    right: 15px;
+  }
+  
+  .location-button {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+  
+  .location-error {
+    max-width: 150px;
+    font-size: 11px;
+    padding: 6px 10px;
+  }
+} 
