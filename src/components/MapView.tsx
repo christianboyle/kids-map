@@ -173,7 +173,7 @@ export default function MapView({ activities, searchQuery }: MapViewProps) {
           spiderfyDistanceMultiplier={1.5}
           chunkedLoading={true}
         >
-          {places.map((place, index) => {
+          {places.map((place) => {
             // Find activity by matching place type to our category mapping
             const activity = activities.find(a => 
               CATEGORY_TYPE_MAPPING[a.id as keyof typeof CATEGORY_TYPE_MAPPING] === place.type
