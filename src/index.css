@@ -1,3 +1,46 @@
+/* Import clustering styles */
+@import 'leaflet/dist/leaflet.css';
+@import 'react-leaflet-markercluster/styles';
+
+/* Custom cluster styles using DivIcon approach */
+.custom-cluster-small, .custom-cluster-medium, .custom-cluster-large {
+  background: none !important;
+  border: none !important;
+}
+
+.custom-cluster-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #E0E0E0;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.custom-cluster-small .custom-cluster-inner {
+  font-size: 11px;
+}
+
+.custom-cluster-medium .custom-cluster-inner {
+  font-size: 12px;
+}
+
+.custom-cluster-large .custom-cluster-inner {
+  font-size: 13px;
+}
+
+.custom-cluster-small:hover .custom-cluster-inner,
+.custom-cluster-medium:hover .custom-cluster-inner,
+.custom-cluster-large:hover .custom-cluster-inner {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  transform: scale(1.05);
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

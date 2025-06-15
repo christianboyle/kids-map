@@ -100,6 +100,7 @@ If needed, you can further use the `web_scraper.py` file to scrape the web page 
 - Use 'gpt-4o' as the model name for OpenAI's GPT-4 with vision capabilities
 - When searching for recent news, use the current year (2025) instead of previous years, or simply use the "recent" keyword to get the latest information
 - For Docker Compose production builds: Use `docker compose --profile prod up --build` (without hyphen) instead of `docker-compose` for newer versions. Also fix any TypeScript compilation errors (unused variables) before building.
+- **React Leaflet MarkerCluster Color Override:** When using react-leaflet-markercluster, the default styles import adds predefined colors (.marker-cluster-small, .marker-cluster-medium, .marker-cluster-large with green/yellow/red backgrounds). These override custom SVG icons. To fix: Add CSS overrides to make the cluster div backgrounds transparent: `.marker-cluster-small div, .marker-cluster-medium div, .marker-cluster-large div { background: none !important; background-color: transparent !important; }`
 
 # Scratchpad
 
@@ -160,7 +161,7 @@ Recreate the SF Kids Map (https://kid-friendly-maps.replit.app/) as a KC Kids Ma
 - Added deduplication logic for places within 100m of each other
 - Fixed production Docker build: Removed unused `allEnabled` variable from Sidebar.tsx to resolve TypeScript compilation error
 
-### Project Status: COMPLETE WITH GEOLOCATION ✅
+### Project Status: IMPLEMENTING CLUSTERING ⚡
 [X] KC Kids Map fully functional with production build working
 [X] All major features implemented and working
 [X] Docker development and production environments ready
@@ -172,3 +173,82 @@ Recreate the SF Kids Map (https://kid-friendly-maps.replit.app/) as a KC Kids Ma
     - User location marker with blue dot design
     - Error handling for permissions and geolocation failures
     - Mobile responsive design
+
+## NEW TASK: Zoom-based Clustering Implementation
+
+### Problem Identified
+- Currently limiting to 50 items per category in both:
+  - `src/services/overpassApi.ts` line 116: `.slice(0, 50)`
+  - `scripts/generatePlaces.js` line 169: `.slice(0, 50)`
+- Total dataset contains ~255 places (confirmed via `ag -c "id" src/places.json`)
+- Missing valid results that users want to see
+- Map becomes overwhelming with too many markers at wide zoom levels
+
+### Goal
+Implement zoom-based clustering similar to the weather outage map examples:
+- Consolidate nearby markers into clusters with counts at low zoom levels
+- Expand to individual markers as user zooms in
+- Show total count in clusters
+- Maintain performance with larger dataset
+
+### Implementation Plan
+[X] Phase 1: Remove 50-item limits
+  [X] Remove `.slice(0, 50)` from overpassApi.ts  
+  [X] Remove `.slice(0, 50)` from generatePlaces.js
+  [X] Regenerate places.json with full dataset
+  [X] Test performance impact
+  
+### Phase 1 Results:
+- **Dataset expanded from 255 to 1,596 places** (6x increase!)
+- **Breakdown by category:**
+  - Parks: 312 places
+  - Museums: 312 places  
+  - Galleries: 309 places
+  - Playgrounds: 297 places
+  - Science Centers: 296 places
+  - Planetariums: 0 places
+- **Performance impact:** Need to implement clustering due to marker density
+  
+[X] Phase 2: Research clustering libraries
+  [X] Evaluate React Leaflet clustering options (react-leaflet-markercluster)
+  [X] Look into Leaflet.markercluster plugin
+  [X] Test clustering behavior with our data
+  
+[X] Phase 3: Implement clustering
+  [X] Install and configure clustering library
+  [X] Integrate with existing MapView component
+  [X] Style clusters to match app design
+  [X] Test cluster expand/collapse behavior
+  
+### Phase 3 Results:
+- **✅ Installed react-leaflet-markercluster@5.0.0-rc.0** + leaflet.markercluster
+- **✅ Added clustering styles** to index.css
+- **✅ Custom cluster icons** with neutral design:
+  - All clusters: Dark gray (#404040) - doesn't conflict with activity colors
+  - Small clusters (<10): 30px, 70% opacity
+  - Medium clusters (10-99): 35px, 80% opacity
+  - Large clusters (100+): 40px, 90% opacity
+- **✅ Cluster configuration**:
+  - zoomToBoundsOnClick: true (expand on click)
+  - spiderfyOnMaxZoom: true (spread markers when needed)
+  - animate: true (smooth transitions)
+  - maxClusterRadius: 80px
+- **✅ All 1,596 places** now show with intelligent clustering
+
+[X] Phase 4: Comprehensive Improvements
+  [X] Enhanced visual design with gradients and shadows
+  [X] Fixed clustering logic and marker validation
+  [X] Optimized clustering parameters and behavior
+  [X] Added professional CSS styling with hover effects
+  
+### Phase 4 Results:
+- **✅ Enhanced cluster icons** with gradient backgrounds and drop shadows
+- **✅ Dynamic clustering radius** based on zoom level (120px→80px→40px)
+- **✅ Fixed marker validation** to prevent invalid coordinates from breaking clusters
+- **✅ Professional CSS styling** with hover animations and smooth transitions
+- **✅ Improved popup design** with better formatting and activity colors
+- **✅ Better clustering behavior**:
+  - Disables clustering at zoom level 18 (street level)
+  - Chunked loading for better performance
+  - Enhanced spiderfy distance for less overlap
+  - Dynamic radius prevents lonely markers

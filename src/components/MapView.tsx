@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
-import { Icon } from 'leaflet'
+import { Icon, DivIcon } from 'leaflet'
+import MarkerClusterGroup from 'react-leaflet-markercluster'
 import type { ActivityCategory } from '../App'
 import { searchPlaces, CATEGORY_TYPE_MAPPING, type Place } from '../services/placesService'
 import LocationControl from './LocationControl'
@@ -43,6 +44,32 @@ const createUserLocationIcon = () => {
     iconSize: [24, 24],
     iconAnchor: [12, 12],
     popupAnchor: [0, -12]
+  })
+}
+
+// Simple cluster icon creation using DivIcon with custom CSS
+const createClusterCustomIcon = (cluster: any) => {
+  const count = cluster.getChildCount()
+  let size = 32
+  let className = 'custom-cluster-small'
+  
+  // Progressive sizing based on count
+  if (count < 10) {
+    size = 32
+    className = 'custom-cluster-small'
+  } else if (count < 100) {
+    size = 38
+    className = 'custom-cluster-medium'
+  } else {
+    size = 44
+    className = 'custom-cluster-large'
+  }
+  
+  return new DivIcon({
+    html: `<div class="custom-cluster-inner">${count}</div>`,
+    className: className,
+    iconSize: [size, size],
+    iconAnchor: [size/2, size/2]
   })
 }
 
@@ -128,33 +155,71 @@ export default function MapView({ activities, searchQuery }: MapViewProps) {
           </Marker>
         )}
         
-        {places.map((place, index) => {
-          // Find activity by matching place type to our category mapping
-          const activity = activities.find(a => 
-            CATEGORY_TYPE_MAPPING[a.id as keyof typeof CATEGORY_TYPE_MAPPING] === place.type
-          )
-          if (!activity) return null
-          
-          // Create a unique key combining place ID and coordinates to avoid duplicates
-          const uniqueKey = `${place.id}-${place.coordinates[0]}-${place.coordinates[1]}-${index}`
-          
-          return (
-            <Marker
-              key={uniqueKey}
-              position={[place.coordinates[0], place.coordinates[1]]}
-              icon={createCustomIcon(activity.color, activity.icon)}
-            >
-              <Popup>
-                <div>
-                  <h3>{place.name}</h3>
-                  {place.description && <p>{place.description}</p>}
-                  <p><strong>Address:</strong> {place.address}</p>
-                  <p><strong>Type:</strong> {activity.name}</p>
-                </div>
-              </Popup>
-            </Marker>
-          )
-        })}
+        {/* Enhanced cluster group for all place markers */}
+        <MarkerClusterGroup
+          iconCreateFunction={createClusterCustomIcon}
+          showCoverageOnHover={false}
+          zoomToBoundsOnClick={true}
+          spiderfyOnMaxZoom={true}
+          removeOutsideVisibleBounds={true}
+          animate={true}
+          animateAddingMarkers={false}
+          disableClusteringAtZoom={18}
+          maxClusterRadius={function(zoom: number) {
+            // Dynamic clustering radius based on zoom level
+            // Wider radius at lower zoom levels, tighter at higher zoom
+            return zoom < 10 ? 120 : zoom < 15 ? 80 : 40;
+          }}
+          spiderfyDistanceMultiplier={1.5}
+          chunkedLoading={true}
+        >
+          {places.map((place, index) => {
+            // Find activity by matching place type to our category mapping
+            const activity = activities.find(a => 
+              CATEGORY_TYPE_MAPPING[a.id as keyof typeof CATEGORY_TYPE_MAPPING] === place.type
+            )
+            if (!activity) return null
+            
+            // Validate coordinates to prevent clustering issues
+            const lat = place.coordinates[0]
+            const lng = place.coordinates[1]
+            if (!lat || !lng || isNaN(lat) || isNaN(lng)) {
+              console.warn('Invalid coordinates for place:', place.name, place.coordinates)
+              return null
+            }
+            
+            // Create a more robust unique key
+            const uniqueKey = `marker-${place.id}-${activity.id}-${Math.round(lat * 10000)}-${Math.round(lng * 10000)}`
+            
+            return (
+              <Marker
+                key={uniqueKey}
+                position={[lat, lng]}
+                icon={createCustomIcon(activity.color, activity.icon)}
+                riseOnHover={true}
+              >
+                <Popup closeButton={true} autoClose={false}>
+                  <div style={{ minWidth: '200px' }}>
+                    <h3 style={{ margin: '0 0 8px 0', color: activity.color }}>
+                      {activity.icon} {place.name}
+                    </h3>
+                    {place.description && (
+                      <p style={{ margin: '0 0 8px 0', fontSize: '14px' }}>
+                        {place.description}
+                      </p>
+                    )}
+                    <p style={{ margin: '0 0 4px 0', fontSize: '13px' }}>
+                      <strong>📍 Address:</strong> {place.address}
+                    </p>
+                    <p style={{ margin: '0', fontSize: '13px' }}>
+                      <strong>🏷️ Type:</strong> {activity.name}
+                    </p>
+                  </div>
+                </Popup>
+              </Marker>
+            )
+          })}
+        </MarkerClusterGroup>
       </MapContainer>
     </div>
   )

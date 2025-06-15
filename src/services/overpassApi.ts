@@ -113,7 +113,7 @@ export async function fetchPlacesByCategory(category: string): Promise<OSMPlace[
         description: generateDescription(element.tags)
       }))
       .filter((place: OSMPlace) => place.lat && place.lng)
-      .slice(0, 50) // Limit to 50 results per category
+    // Remove 50-item limit to show all valid results
 
     console.log(`Returning ${places.length} ${category} places`)
     return places

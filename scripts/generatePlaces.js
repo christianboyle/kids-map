@@ -165,8 +165,8 @@ async function fetchPlacesByCategory(category) {
               description: generateDescription(element.tags),
               address: generateAddress(element.tags)
             }))
-            .filter((place) => place.coordinates[0] && place.coordinates[1])
-            .slice(0, 50); // Limit to 50 results per category
+            .filter((place) => place.coordinates[0] && place.coordinates[1]);
+            // Remove 50-item limit to show all valid results
 
           console.log(`Returning ${places.length} ${category} places`);
           resolve(places);

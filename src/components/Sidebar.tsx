@@ -1,4 +1,6 @@
+import { useEffect, useState } from 'react'
 import type { ActivityCategory } from '../App'
+import { getPlacesByTypes, CATEGORY_TYPE_MAPPING } from '../services/placesService'
 import './Sidebar.css'
 
 interface SidebarProps {
@@ -9,6 +11,10 @@ interface SidebarProps {
   onSearchChange: (query: string) => void
 }
 
+interface ActivityCounts {
+  [key: string]: number
+}
+
 export default function Sidebar({ 
   activities, 
   searchQuery, 
@@ -16,7 +22,27 @@ export default function Sidebar({
   onToggleAll,
   onSearchChange 
 }: SidebarProps) {
+  const [activityCounts, setActivityCounts] = useState<ActivityCounts>({})
   const someEnabled = activities.some(activity => activity.enabled)
+
+  // Load place counts for each activity type
+  useEffect(() => {
+    const loadCounts = async () => {
+      const counts: ActivityCounts = {}
+      
+      for (const activity of activities) {
+        const placeType = CATEGORY_TYPE_MAPPING[activity.id as keyof typeof CATEGORY_TYPE_MAPPING]
+        if (placeType) {
+          const places = await getPlacesByTypes([placeType])
+          counts[activity.id] = places.length
+        }
+      }
+      
+      setActivityCounts(counts)
+    }
+
+    loadCounts()
+  }, [activities])
   return (
     <div className="sidebar">
       <div className="sidebar-header">
@@ -44,6 +70,11 @@ export default function Sidebar({
               <div className="activity-left">
                 <span className="activity-icon">{activity.icon}</span>
                 <span className="activity-name">{activity.name}</span>
+                {activityCounts[activity.id] !== undefined && (
+                  <span className="activity-count-badge">
+                    {activityCounts[activity.id]}
+                  </span>
+                )}
               </div>
               <input
                 type="checkbox"
